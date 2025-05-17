@@ -14,8 +14,6 @@ def salary(sal):
 def pension(sal,yrs):
     return salary(sal) * time(yrs) / 100
 
-pension([78000,82500,91000],19.75)
-
 def presentvalue(annuity):
     return annuity * (1 - (1 + 0.04) ** -27) / 0.04
 
